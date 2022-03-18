@@ -1,4 +1,4 @@
-# Efficient Neural Network Training via Forward and Backward Propagation SparsificationDownload PDF
+# Efficient Neural Network Training via Forward and Backward Propagation Sparsification
 
 ## Requirements:
 
