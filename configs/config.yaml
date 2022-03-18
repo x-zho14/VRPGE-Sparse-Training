@@ -1,0 +1,29 @@
+# Architecture
+arch: vgg19_bn_new_fc
+
+# ===== Dataset ===== #
+data: dataset/
+set: CIFAR10
+name: VRPGE
+# ===== Learning Rate Policy ======== #
+optimizer: adam
+
+lr_policy: cosine_lr
+
+# ===== Network training config ===== #
+epochs: 300
+weight_decay: 0
+batch_size: 256
+
+# ===== Sparsity =========== #
+conv_type: VRPGE
+bn_type: LearnedBatchNorm
+init: kaiming_normal
+mode: fan_in
+nonlinearity: relu
+prune_rate: 0.5
+score_init_constant: 0.5
+K: 2
+
+# ===== Hardware setup ===== #
+workers: 4
