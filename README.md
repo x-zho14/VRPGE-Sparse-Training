@@ -21,3 +21,11 @@ python main.py --config configs/config.yaml --multigpu 0 --score-init-constant 0
 ```
 ## Implementation
 1. The implementation of Variance-Reduced PGE can be found at utils/conv_type.py VRPGE and trainers/default.py calculateGrad.
+
+##
+@inproceedings{bulat2021space,
+  title={Space-time Mixing Attention for Video Transformer},
+  author={Bulat, Adrian and Perez-Rua, Juan-Manuel and Sudhakaran, Swathikiran and Martinez, Brais and Tzimiropoulos, Georgios},
+  booktitle={NeurIPS},
+  year={2021}
+}
