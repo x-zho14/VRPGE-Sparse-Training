@@ -24,14 +24,15 @@ python main.py --config configs/config.yaml --multigpu 0 --score-init-constant 0
 
 ##
 
+## Cite
+If you find this implementation is helpful to you, please cite:
+
 ```BibTeX
-@inproceedings{
-zhou2021efficient,
-title={Efficient Neural Network Training via Forward and Backward Propagation Sparsification},
-author={Xiao Zhou and WEIZHONG ZHANG and Zonghao Chen and SHIZHE DIAO and Tong Zhang},
-booktitle={Advances in Neural Information Processing Systems},
-editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
-year={2021},
-url={https://openreview.net/forum?id=JnAU9HkXr2}
+@article{zhou2021efficient,
+  title={Efficient Neural Network Training via Forward and Backward Propagation Sparsification},
+  author={Zhou, Xiao and Zhang, Weizhong and Chen, Zonghao and Diao, Shizhe and Zhang, Tong},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  year={2021}
 }
 ```
